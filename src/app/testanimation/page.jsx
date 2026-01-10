@@ -1,7 +1,7 @@
 const test = () => {
   return (
     <div className="h-full flex items-center justify-center">
-      <div className="w-96 h-96"></div>
+      <motion.div className="w-96 h-96 bg-red-400 rounded"></motion.div>
     </div>
   );
 };
